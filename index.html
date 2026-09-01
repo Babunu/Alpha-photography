@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alpha Photography - Professional photography portfolio and booking.">
+<title>Alpha Photography | Capturing Moments</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#f5f5f5;line-height:1.6}
+a{color:inherit;text-decoration:none}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(0,0,0,.82);backdrop-filter:blur(10px);padding:16px 6%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800;letter-spacing:2px}.logo span{color:#d4af37}
+nav .links{display:flex;gap:24px;font-size:14px}
+nav .links a:hover{color:#d4af37}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:100px 20px;background:radial-gradient(circle at center,#292929 0,#111 42%,#050505 100%)}
+.hero h1{font-size:clamp(48px,9vw,100px);letter-spacing:5px;text-transform:uppercase}
+.hero h1 span{color:#d4af37}
+.hero p{margin:15px auto 30px;color:#ccc;font-size:18px}
+.btn{display:inline-block;padding:13px 25px;border:1px solid #d4af37;color:#fff;margin:5px;border-radius:3px;transition:.25s}
+.btn.primary{background:#d4af37;color:#111;font-weight:700}.btn:hover{transform:translateY(-2px);opacity:.9}
+section{padding:90px 7%}.title{text-align:center;margin-bottom:45px}.title h2{font-size:36px}.title p{color:#aaa;margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.photo{height:310px;border-radius:8px;overflow:hidden;background:linear-gradient(135deg,#252525,#111);display:grid;place-items:center;color:#777;font-size:13px;border:1px solid #292929}
+.photo::after{content:"YOUR PHOTO";letter-spacing:2px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{padding:28px;border:1px solid #292929;background:#111;border-radius:8px}
+.card h3{margin-bottom:10px;color:#d4af37}.card p{color:#aaa}
+.about{max-width:800px;margin:auto;text-align:center;color:#bbb}
+.contact{max-width:700px;margin:auto;text-align:center}
+.contact p{color:#bbb;margin:8px 0}
+footer{text-align:center;padding:30px;color:#777;border-top:1px solid #222;font-size:14px}
+@media(max-width:650px){nav{padding:14px 4%}nav .links{gap:10px;font-size:11px}.hero h1{letter-spacing:2px}section{padding:70px 5%}.photo{height:260px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">ALPHA <span>PHOTOGRAPHY</span></div>
+  <div class="links">
+    <a href="#home">Home</a><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div>
+    <p>PROFESSIONAL PHOTOGRAPHY</p>
+    <h1>Alpha <span>Photography</span></h1>
+    <p>Capturing moments. Creating memories.</p>
+    <a class="btn primary" href="#portfolio">View Portfolio</a>
+    <a class="btn" href="#contact">Book a Shoot</a>
+  </div>
+</header>
+
+<section id="portfolio">
+  <div class="title"><h2>Our Portfolio</h2><p>Replace these boxes with your best photographs.</p></div>
+  <div class="grid">
+    <div class="photo"></div><div class="photo"></div><div class="photo"></div>
+    <div class="photo"></div><div class="photo"></div><div class="photo"></div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="title"><h2>Services</h2><p>Photography for your special moments.</p></div>
+  <div class="cards">
+    <div class="card"><h3>Wedding</h3><p>Complete wedding photography and memorable candid moments.</p></div>
+    <div class="card"><h3>Pre-Wedding</h3><p>Cinematic pre-wedding sessions designed around your story.</p></div>
+    <div class="card"><h3>Portrait</h3><p>Professional portraits for personal, social and creative use.</p></div>
+    <div class="card"><h3>Events</h3><p>High-quality coverage for parties, functions and special events.</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="title"><h2>About Alpha Photography</h2></div>
+  <div class="about">
+    <p>We turn real moments into timeless photographs. From weddings and portraits to events and creative shoots, Alpha Photography focuses on natural expressions, clean compositions and cinematic storytelling.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="title"><h2>Let's Create Something Beautiful</h2><p>Contact us for availability and bookings.</p></div>
+  <div class="contact">
+    <p>📱 WhatsApp: <strong>+91 XXXXXXXXXX</strong></p>
+    <p>📸 Instagram: <strong>@yourinstagram</strong></p>
+    <p>📧 Email: <strong>your@email.com</strong></p>
+    <br>
+    <a class="btn primary" href="https://wa.me/91XXXXXXXXXX">WhatsApp Us</a>
+  </div>
+</section>
+
+<footer>© 2026 Alpha Photography. All Rights Reserved.</footer>
+</body>
+</html>
