@@ -1,2 +1,0 @@
-# Alpha-photography
-Photography update 
