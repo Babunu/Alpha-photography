@@ -11,9 +11,19 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="loader"><div class="loader-logo">ALPHA</div><div class="loader-line"></div></div>
+  <script>
+  setTimeout(function () {
+    document.getElementById("loader").classList.add("hide");
+  }, 1500);
+</script>
 
+<script src="./script.js"></script>
+</body>
+<body>
+  <div class="loader" id="loader">
+  <div class="loader-logo">ALPHA</div>
+  <div class="loader-line"></div>
+  </div>
   <div class="cursor"></div>
   <div class="cursor-dot"></div>
 
